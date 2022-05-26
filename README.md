@@ -33,6 +33,8 @@
 <!-- BUILT WITH -->
 ### CONSTRUÍDO COM
 
+* [Python](https://www.python.org)
+
 <!-- WHAT I LEARNED -->
 <!-- ### O QUE APRENDI -->
 
