@@ -3,6 +3,8 @@
 
 ***Conteúdo do Projeto:***
 
+Projeto basico para testa os conhecimentos adquiridos em Algoritmos e Lógica de Programação.
+
 <!-- TABLE OF CONTENTS -->
 ## TABELA DE CONTEÚDO
 
