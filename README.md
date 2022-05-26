@@ -47,6 +47,8 @@
 <!-- AUTHOR -->
 ## AUTOR
 
+* [Paulo Vanderley](https://github.com/Devsgeeknerd)
+
 <!-- ACKNOWLEDGMENTS -->
 <!-- ## AGRADECIMENTOS -->
 
