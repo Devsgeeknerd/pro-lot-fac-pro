@@ -45,7 +45,7 @@
 <!-- ### RECURSOS ÚTEIS -->
 
 <!-- AUTHOR -->
-<!-- ## AUTOR -->
+## AUTOR
 
 <!-- ACKNOWLEDGMENTS -->
 <!-- ## AGRADECIMENTOS -->
