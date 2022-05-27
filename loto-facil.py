@@ -18,3 +18,4 @@ quantidade = int(input('Quantos jogos você quer gerar? '))
 total = 1
 
 # Sorteando os números
+while total <= quantidade:
