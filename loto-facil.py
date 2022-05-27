@@ -27,3 +27,4 @@ while total <= quantidade:
             contagem += 1
         if contagem >= 15:
             break
+    lista.sort()
