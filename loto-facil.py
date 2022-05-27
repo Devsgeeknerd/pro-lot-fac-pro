@@ -14,3 +14,4 @@ print('        JOGA NA LOTO FÁCIL        ')
 print('-' * 60)
 
 # Pergunta
+quantidade = int(input('Quantos jogos você quer gerar? '))
