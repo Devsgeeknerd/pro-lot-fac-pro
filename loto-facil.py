@@ -24,4 +24,4 @@ while total <= quantidade:
         numero = randint(1, 25)
         if numero not in lista:
             lista.append(numero)
-            contagem
+            contagem += 1
