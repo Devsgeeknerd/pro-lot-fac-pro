@@ -23,3 +23,4 @@ while total <= quantidade:
     while True:
         numero = randint(1, 25)
         if numero not in lista:
+            lista.append(numero)
