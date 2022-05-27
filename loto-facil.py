@@ -19,8 +19,9 @@ total = 1
 
 # Sorteando os números
 while total <= quantidade:
-    cont = 0
+    contagem = 0
     while True:
         numero = randint(1, 25)
         if numero not in lista:
             lista.append(numero)
+            contagem
