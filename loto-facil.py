@@ -15,3 +15,4 @@ print('-' * 60)
 
 # Pergunta
 quantidade = int(input('Quantos jogos você quer gerar? '))
+total = 1
