@@ -25,3 +25,4 @@ while total <= quantidade:
         if numero not in lista:
             lista.append(numero)
             contagem += 1
+        if contagem >= 15:
