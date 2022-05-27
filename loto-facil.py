@@ -26,3 +26,4 @@ while total <= quantidade:
             lista.append(numero)
             contagem += 1
         if contagem >= 15:
+            break
