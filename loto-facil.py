@@ -19,3 +19,4 @@ total = 1
 
 # Sorteando os números
 while total <= quantidade:
+    cont = 0
