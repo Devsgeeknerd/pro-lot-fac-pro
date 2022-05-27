@@ -30,3 +30,4 @@ while total <= quantidade:
     lista.sort()
     jogos.append(lista[:])
     lista.clear()
+    total += 1
