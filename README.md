@@ -3,7 +3,7 @@
 
 ***Conteúdo do Projeto:***
 
-Projeto basico para testa os conhecimentos adquiridos em Algoritmos e Lógica de Programação.
+Projeto básico para testa os conhecimentos adquiridos em Algoritmos e Lógica de Programação.
 
 <!-- TABLE OF CONTENTS -->
 ## TABELA DE CONTEÚDO
@@ -13,9 +13,9 @@ Projeto basico para testa os conhecimentos adquiridos em Algoritmos e Lógica de
 <!--  * [Links.](#links) -->
 * [Meu processo.](#meu-processo)
   * [Construído com.](#construido-com)
-<!--  * [O que aprendi.](#o-que-aprendi) -->
-<!--  * [Desenvolvimento contínuo.](#desenvolvimento-contínuo) -->
-<!--  * [Recursos úteis.](#recursos-úteis) -->
+  <!--  * [O que aprendi.](#o-que-aprendi) -->
+  <!--  * [Desenvolvimento contínuo.](#desenvolvimento-contínuo) -->
+  <!--  * [Recursos úteis.](#recursos-úteis) -->
 * [Autor.](#autor)
 <!-- * [Agradecimentos.](#agradecimentos) -->
 * [Informações.](#informações)
