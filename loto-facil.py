@@ -13,4 +13,4 @@ print('-' * 30)
 print('         JOGA NA LOTO FÁCIL         ')
 print('-' * 30)
 
-Pergunta
+# Pergunta
