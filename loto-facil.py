@@ -1,3 +1,3 @@
 # Módulos
 from random import randint
-from time
+from time import sleep
