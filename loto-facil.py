@@ -15,3 +15,4 @@ print('-' * 30)
 
 # Pergunta
 quantidade = int(input('Quantos jogos quer sortear? '))
+""" Quantidade de jogos """
