@@ -19,3 +19,4 @@ quantidade = int(input('Quantos jogos quer sortear? '))
 total = 1
 
 # Sorteio
+while total <= quantidade:
