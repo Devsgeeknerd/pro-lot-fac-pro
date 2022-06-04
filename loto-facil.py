@@ -35,3 +35,4 @@ while total <= quantidade:
             break
             """ Sai do loop. """
     lista.sort()
+    """ Ordena a lista. """
