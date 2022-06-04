@@ -22,3 +22,4 @@ total = 1
 while total <= quantidade:
     contagem = 0
     """ Contagem de jogos """
+    while True:
