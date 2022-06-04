@@ -44,3 +44,4 @@ while total <= quantidade:
     """ Contagem de jogos. """
 print('-=' * 6, f'SORTEANDO {quantidade} JOGOS', '-=' * 6)
 for i, l in enumerate(jogos):
+    """ Imprime os jogos. """
