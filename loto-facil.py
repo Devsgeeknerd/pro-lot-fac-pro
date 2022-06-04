@@ -31,3 +31,4 @@ while total <= quantidade:
             """ Adiciona o número na lista. """
             contagem += 1
         if contagem >= 15:
+            """ Verifica se o número de números sorteados é igual a 15. """
