@@ -49,3 +49,4 @@ for i, l in enumerate(jogos):
     sleep(1)
     """ Tempo de espera. """
 print('-=' * 9, '< BOA SORTE!!! >', '-=' * 9)
+""" Fim do programa. """
