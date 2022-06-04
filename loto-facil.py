@@ -24,3 +24,4 @@ while total <= quantidade:
     """ Contagem de jogos """
     while True:
         """ Sorteio de números """
+        numero = randint(1, 25)
