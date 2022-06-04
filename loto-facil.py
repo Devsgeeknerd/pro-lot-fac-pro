@@ -48,3 +48,4 @@ for i, l in enumerate(jogos):
     print(f'Jogo {i + l}: {l}')
     sleep(1)
     """ Tempo de espera. """
+print('-=' * 9, '< BOA SORTE!!! >', '-=' * 9)
