@@ -23,3 +23,4 @@ while total <= quantidade:
     contagem = 0
     """ Contagem de jogos """
     while True:
+        """ Sorteio de números """
