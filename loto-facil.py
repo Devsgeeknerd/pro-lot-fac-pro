@@ -34,3 +34,4 @@ while total <= quantidade:
             """ Verifica se o número de números sorteados é igual a 15. """
             break
             """ Sai do loop. """
+    lista.sort()
