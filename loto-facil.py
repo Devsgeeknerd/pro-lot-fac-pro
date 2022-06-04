@@ -27,3 +27,4 @@ while total <= quantidade:
         numero = randint(1, 25)
         if numero not in lista:
             """ Verifica se o número já existe. """
+            lista.append(numero)
