@@ -20,3 +20,4 @@ total = 1
 
 # Sorteio
 while total <= quantidade:
+    contagem = 0
