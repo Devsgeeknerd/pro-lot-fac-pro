@@ -30,3 +30,4 @@ while total <= quantidade:
             lista.append(numero)
             """ Adiciona o número na lista. """
             contagem += 1
+        if contagem >= 15:
