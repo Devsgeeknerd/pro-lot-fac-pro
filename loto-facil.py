@@ -36,3 +36,4 @@ while total <= quantidade:
             """ Sai do loop. """
     lista.sort()
     """ Ordena a lista. """
+    jogos.append(lista[:])
