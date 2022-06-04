@@ -33,3 +33,4 @@ while total <= quantidade:
         if contagem >= 15:
             """ Verifica se o número de números sorteados é igual a 15. """
             break
+            """ Sai do loop. """
