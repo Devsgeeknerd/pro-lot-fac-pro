@@ -25,3 +25,4 @@ while total <= quantidade:
     while True:
         """ Sorteio de números """
         numero = randint(1, 25)
+        if numero not in lista:
