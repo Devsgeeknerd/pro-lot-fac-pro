@@ -41,3 +41,4 @@ while total <= quantidade:
     lista.clear()
     """ Limpa a lista. """
     total += 1
+    """ Contagem de jogos. """
