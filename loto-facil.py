@@ -47,3 +47,4 @@ for i, l in enumerate(jogos):
     """ Imprime os jogos. """
     print(f'Jogo {i + l}: {l}')
     sleep(1)
+    """ Tempo de espera. """
