@@ -29,3 +29,4 @@ while total <= quantidade:
             """ Verifica se o número já existe. """
             lista.append(numero)
             """ Adiciona o número na lista. """
+            contagem += 1
