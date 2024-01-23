@@ -1,52 +1,64 @@
-# Módulos
 from random import randint
 from time import sleep
 
-# Lista
+# Lista temporária para armazenar números sorteados.
 lista = list()
 
-# Jogos
+# Lista para armazenar os jogos gerados.
 jogos = list()
 
-# Titulo
+# Mensagem visual.
 print('-' * 30)
 print('         JOGA NA LOTO FÁCIL         ')
 print('-' * 30)
 
-# Pergunta
+# Solicita ao usuário a quantidade de jogos desejada.
 quantidade = int(input('Quantos jogos quer sortear? '))
-""" Quantidade de jogos. """
+
+# Variável para contar o total de jogos gerados.
 total = 1
 
-# Sorteio
+# Loop principal para gerar os jogos.
 while total <= quantidade:
+    # Inicializa a contagem de números únicos para cada jogo.
     contagem = 0
-    """ Contagem de jogos. """
+    
+    # Loop interno para gerar 15 números únicos para cada jogo.
     while True:
-        """ Sorteio de números. """
+        # Gera um número aleatório entre 1 e 25.
         numero = randint(1, 25)
+        
+        # Verifica se o número já foi sorteado.
         if numero not in lista:
-            """ Verifica se o número já existe. """
+            # Adiciona o número à lista temporária.
             lista.append(numero)
-            """ Adiciona o número na lista. """
+            
+            # Incrementa a contagem de números únicos.
             contagem += 1
+        
+        # Se atingiu 15 números únicos, sai do loop interno.
         if contagem >= 15:
-            """ Verifica se o número de números sorteados é igual a 15. """
             break
-            """ Sai do loop. """
+    
+    # Ordena a lista temporária em ordem crescente.
     lista.sort()
-    """ Ordena a lista. """
+    
+    # Adiciona uma cópia da lista temporária à lista de jogos.
     jogos.append(lista[:])
-    """ Adiciona a lista na lista de jogos. """
+    
+    # Limpa a lista temporária para o próximo jogo.
     lista.clear()
-    """ Limpa a lista. """
+    
+    # Incrementa o total de jogos gerados.
     total += 1
-    """ Contagem de jogos. """
+
+# Mensagem indicando que os jogos estão sendo sorteados.
 print('-=' * 6, f'SORTEANDO {quantidade} JOGOS', '-=' * 6)
+
+# Imprime cada jogo numerado com pausa de 1 segundo entre cada impressão.
 for i, l in enumerate(jogos):
-    """ Imprime os jogos. """
-    print(f'Jogo {i + l}: {l}')
+    print(f'Jogo {i + 1}: {l}')
     sleep(1)
-    """ Tempo de espera. """
+
+# Mensagem desejando boa sorte.
 print('-=' * 9, '< BOA SORTE!!! >', '-=' * 9)
-""" Fim do programa. """
